@@ -24,7 +24,12 @@ header {
   background-color: var(--mainColor);
   color: var(--textColor);
 }
-
+b1 {
+  font-size: 2rem;
+  align-items: center;
+  display: inline;
+  text-align: right;
+}
 nav a{
   cursor: pointer;
   font-size: 2rem;

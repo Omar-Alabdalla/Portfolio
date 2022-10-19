@@ -1,5 +1,7 @@
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Experience from "./Pages/Experience";
 
 import NavBar from "./Components/NavBar";
 
@@ -16,8 +18,10 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" component={Home} />
-            <Route exact path="/index" component={Home} />
-            <Route path="/about" component={About} />
+            <Route exact path="/Home" component={Home} />
+            <Route path="/about" component={About} />\
+            <Route path="/Experience" component={Experience} />
+            <Route path="/Contact" component={Contact} />
           </Routes>
         </Router>
       </React.Fragment>

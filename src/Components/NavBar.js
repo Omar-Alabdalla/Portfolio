@@ -16,11 +16,12 @@ function NavBar() {
         <a href="/Home">Home</a>
         <a href="/Projects">Projects</a>
         <a href="/Experience">Experience</a>
-        <a href="/About-me">About me</a>
+        <a href="/Contact">Contact</a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
       </nav>
+      <b1>Omar Alabdalla</b1>
       <button className="nav-btn" onClick={showNavBar}>
         <FaBars />
       </button>
