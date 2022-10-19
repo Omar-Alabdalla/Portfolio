@@ -1,7 +1,5 @@
 import { useRef } from "react";
-import { FaBars, FaTimes, FaNetworkWired } from "react-icons/fa";
-import { AiFillHome, AiOutlineProject } from "react-icons/ai";
-import { BsFilePerson } from "react-icons/bs";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import React from "react";
 
