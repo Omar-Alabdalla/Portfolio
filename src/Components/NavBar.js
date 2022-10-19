@@ -14,20 +14,12 @@ function NavBar() {
 
   return (
     <header>
-      <h3>Logo</h3>
+      <h3>Omar Alabdalla</h3>
       <nav ref={navRef}>
-        <a href="/Home">
-          <AiFillHome size="25" />
-        </a>
-        <a href="/Projects">
-          <FaNetworkWired size="25" />
-        </a>
-        <a href="/Work">
-          <AiOutlineProject size="25" />
-        </a>
-        <a href="/About-me">
-          <BsFilePerson size="25" />
-        </a>
+        <a href="/Home">Home</a>
+        <a href="/Projects">Projects</a>
+        <a href="/Experience">Experience</a>
+        <a href="/About-me">About me</a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
@@ -43,39 +35,44 @@ export default NavBar;
 
 /*
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaNetworkWired } from "react-icons/fa";
+import { AiFillHome, AiOutlineProject } from "react-icons/ai";
+import { BsFilePerson } from "react-icons/bs";
 
 import React from "react";
 
-class NavBar extends React.Component {
-  function NavBar() {
-    
-  }
-  render() {
-    const navRef = useRef();
+function NavBar() {
+  const navRef = useRef();
 
-    const showNavBar = () => {
-      navRef.current.classList.toggle("responsive_nav");
-    };
+  const showNavBar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
 
-    return (
-      <header>
-        <h3>Logo</h3>
-        <nav ref={navRef}>
-          <a href="/Home">Home</a>
-          <a href="/Home">My Work</a>
-          <a href="/Home">Projects</a>
-          <a href="/Home">About Me</a>
-          <button onClick={showNavBar}>
-            <FaTimes />
-          </button>
-        </nav>
-        <button onClick={showNavBar}>
-          <FaBars />
+  return (
+    <header>
+      <h3>Omar Alabdalla</h3>
+      <nav ref={navRef}>
+        <a href="/Home">
+          <AiFillHome title="Home" className="icon1" size="25" />
+        </a>
+        <a href="/Projects">
+          <FaNetworkWired title="Projects" className="icon2" size="25" />
+        </a>
+        <a href="/Work">
+          <AiOutlineProject title="Work" className="icon3" size="25" />
+        </a>
+        <a href="/About-me">
+          <BsFilePerson title="About Me" className="icon4" size="25" />
+        </a>
+        <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+          <FaTimes />
         </button>
-      </header>
-    );
-  }
+      </nav>
+      <button className="nav-btn" onClick={showNavBar}>
+        <FaBars />
+      </button>
+    </header>
+  );
 }
 
 export default NavBar;

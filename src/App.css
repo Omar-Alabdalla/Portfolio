@@ -8,10 +8,10 @@
 }
 
 :root {
-  --mainColor: #4f4f4f;
+  --mainColor: rgb(48, 48, 48);
   --mainColorLight: grey;
-  --secondaryColor: rgb(15, 0, 100);
-  --textColor: #eee;
+  --secondaryColor: rgb(10, 4, 80);
+  --textColor: rgb(169, 126, 7);
 }
 
 header {
@@ -24,6 +24,21 @@ header {
   color: var(--textColor);
 }
 
+nav a b1{
+  opacity: 0;
+}
+
+nav a b2{
+  opacity: 0;
+}
+
+nav a b3{
+  opacity: 0;
+}
+
+nav a b4{
+  opacity: 0;
+}
 
 nav a{
   margin: 0 2rem;
@@ -31,7 +46,12 @@ nav a{
   text-decoration: none;
 }
 nav a:hover{
+
   color: var(--secondaryColor);
+}
+
+nav a.icon1:hover{
+
 }
 
 header .nav-btn {
@@ -82,5 +102,13 @@ header .nav-btn {
 }
 body {
   overflow: hidden;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(38, 38, 38);
+}
+
+.fade-in {
+
+}
+
+.fade-out {
+
 }
