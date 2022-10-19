@@ -12,7 +12,6 @@ function NavBar() {
 
   return (
     <header>
-      <h3>Omar Alabdalla</h3>
       <nav ref={navRef}>
         <a href="/Home">Home</a>
         <a href="/Projects">Projects</a>

@@ -25,10 +25,12 @@ header {
 }
 
 nav a{
+  font-size: 2rem;
   margin: 0 2rem;
   color: var(--textColor);
   text-decoration: none;
 }
+
 nav a:hover{
 
   color: var(--secondaryColor);
@@ -83,12 +85,4 @@ header .nav-btn {
 body {
   overflow: hidden;
   background-color: rgb(38, 38, 38);
-}
-
-.fade-in {
-
-}
-
-.fade-out {
-
 }
