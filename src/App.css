@@ -10,8 +10,9 @@
 :root {
   --mainColor: rgb(48, 48, 48);
   --mainColorLight: grey;
-  --secondaryColor: rgb(10, 4, 80);
+  --secondaryColor: rgb(19, 200, 255);
   --textColor: rgb(169, 126, 7);
+  --textColor2: white;
 }
 
 header {
@@ -25,15 +26,24 @@ header {
 }
 
 nav a{
+  cursor: pointer;
   font-size: 2rem;
-  margin: 0 2rem;
+  margin: 0 0rem;
   color: var(--textColor);
   text-decoration: none;
+  border: rbga(0, 0, 0, 0) .125em solid;
+  padding: .3em 1em;
+  border-radius: .25em;
 }
 
 nav a:hover{
+  border-color: var(--secondaryColor);
+  color: var(--textColor2);
+  text-shadow:
+  0 0 .25em hsl(0 0% 100% / 5), 
+  0 0 .45em var(--secondaryColor);
 
-  color: var(--secondaryColor);
+  box-shadow: inset 0 0 .5em 0 var(--secondaryColor), 0 0 .5em 0 var(--secondaryColor);
 }
 
 header .nav-btn {
