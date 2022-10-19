@@ -5,27 +5,26 @@ import Experience from "./Pages/Experience";
 
 import NavBar from "./Components/NavBar";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import React from "react";
 
 function App() {
   return (
-    <div>
-      <React.Fragment>
-        <NavBar />
-        <Router>
+    <BrowserRouter>
+      <div>
+        <React.Fragment>
+          <NavBar />
           <Routes>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/Home" component={Home} />
-            <Route path="/about" component={About} />\
-            <Route path="/Experience" component={Experience} />
-            <Route path="/Contact" component={Contact} />
+            <Route path="/" element={<Home />} />
+            <Route path="/" element={<About />} />
+            <Route path="/" element={<Contact />} />
+            <Route path="/" element={<Experience />} />
           </Routes>
-        </Router>
-      </React.Fragment>
-    </div>
+        </React.Fragment>
+      </div>
+    </BrowserRouter>
   );
 }
 
