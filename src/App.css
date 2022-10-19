@@ -24,22 +24,6 @@ header {
   color: var(--textColor);
 }
 
-nav a b1{
-  opacity: 0;
-}
-
-nav a b2{
-  opacity: 0;
-}
-
-nav a b3{
-  opacity: 0;
-}
-
-nav a b4{
-  opacity: 0;
-}
-
 nav a{
   margin: 0 2rem;
   color: var(--textColor);
@@ -48,10 +32,6 @@ nav a{
 nav a:hover{
 
   color: var(--secondaryColor);
-}
-
-nav a.icon1:hover{
-
 }
 
 header .nav-btn {
