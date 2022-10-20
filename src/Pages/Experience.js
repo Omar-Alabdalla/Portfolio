@@ -1,9 +1,7 @@
 import React from "react";
 
-class Experience extends React.Component {
-  render() {
-    return <main></main>;
-  }
+function Experience() {
+  return <></>;
 }
 
 export default Experience;

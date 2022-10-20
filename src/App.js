@@ -14,13 +14,14 @@ function App() {
   return (
     <BrowserRouter>
       <div>
+        <title>Personal Portfolio</title>
         <React.Fragment>
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/" element={<About />} />
-            <Route path="/" element={<Contact />} />
-            <Route path="/" element={<Experience />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Experience" element={<Experience />} />
           </Routes>
         </React.Fragment>
       </div>

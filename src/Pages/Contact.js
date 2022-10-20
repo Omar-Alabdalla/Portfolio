@@ -1,9 +1,7 @@
 import React from "react";
 
-class Contact extends React.Component {
-  render() {
-    return <main></main>;
-  }
+function Contact() {
+  return <div class="contact-section"></div>;
 }
 
 export default Contact;
