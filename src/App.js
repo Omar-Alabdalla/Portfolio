@@ -18,10 +18,13 @@ function App() {
         <React.Fragment>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/Experience" element={<Experience />} />
+            <Route path="/Personal-Portfolio/" element={<Home />} />
+            <Route path="/Personal-Portfolio/About" element={<About />} />
+            <Route path="/Personal-Portfolio/Contact" element={<Contact />} />
+            <Route
+              path="/Personal-Portfolio/Experience"
+              element={<Experience />}
+            />
           </Routes>
         </React.Fragment>
       </div>
