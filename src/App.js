@@ -14,7 +14,6 @@ function App() {
   return (
     <HashRouter>
       <div>
-        <title>Personal Portfolio</title>
         <React.Fragment>
           <NavBar />
           <Routes>
