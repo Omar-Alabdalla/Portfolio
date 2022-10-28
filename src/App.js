@@ -5,14 +5,14 @@ import Experience from "./Pages/Experience";
 
 import NavBar from "./Components/NavBar";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import React from "react";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <title>Personal Portfolio</title>
         <React.Fragment>
@@ -25,7 +25,7 @@ function App() {
           </Routes>
         </React.Fragment>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
