@@ -12,7 +12,7 @@ import React from "react";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div>
         <React.Fragment>
           <NavBar />

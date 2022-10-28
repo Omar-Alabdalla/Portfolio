@@ -8,10 +8,10 @@ function NavBar() {
   return (
     <header>
       <nav ref={navRef}>
-        <a href="/Personal-Portfolio/">Home</a>
-        <a href="/Personal-Portfolio/Projects">Projects</a>
-        <a href="/Personal-Portfolio/Experience">Experience</a>
-        <a href="/Personal-Portfolio/Contact">Contact</a>
+        <a href="/Personal-Portfolio/#/">Home</a>
+        <a href="/Personal-Portfolio/#/Projects">Projects</a>
+        <a href="/Personal-Portfolio/#/Experience">Experience</a>
+        <a href="/Personal-Portfolio/#/Contact">Contact</a>
       </nav>
       <b1 class="Name">Omar Alabdalla</b1>
     </header>
