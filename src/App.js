@@ -5,38 +5,28 @@ import Experience from "./Pages/Experience";
 
 import NavBar from "./Components/NavBar";
 
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import React from "react";
 
-class App extends React.Component {
-  render() {
-    return (
-      <React.StrictMode>
-        <HashRouter>
-          <div>
-            <title>Personal Portfolio</title>
-            <React.Fragment>
-              <NavBar />
-              <Routes>
-                <Route path="/Personal-Portfolio/" element={<Home />} />
-                <Route path="/Personal-Portfolio/About" element={<About />} />
-                <Route
-                  path="/Personal-Portfolio/Contact"
-                  element={<Contact />}
-                />
-                <Route
-                  path="/Personal-Portfolio/Experience"
-                  element={<Experience />}
-                />
-              </Routes>
-            </React.Fragment>
-          </div>
-        </HashRouter>
-      </React.StrictMode>
-    );
-  }
+function App() {
+  return (
+    <BrowserRouter>
+      <div>
+        <title>Personal Portfolio</title>
+        <React.Fragment>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Experience" element={<Experience />} />
+          </Routes>
+        </React.Fragment>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
