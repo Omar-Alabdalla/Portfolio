@@ -5,7 +5,7 @@ import Experience from "./Pages/Experience";
 
 import NavBar from "./Components/NavBar";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import React from "react";
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
           <div>
             <title>Personal Portfolio</title>
             <React.Fragment>
@@ -33,7 +33,7 @@ class App extends React.Component {
               </Routes>
             </React.Fragment>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </React.StrictMode>
     );
   }
