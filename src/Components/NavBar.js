@@ -2,18 +2,22 @@ import { useRef } from "react";
 
 import React from "react";
 
+import "./NavBar.scss";
+
 function NavBar() {
   const navRef = useRef();
 
   return (
     <header>
-      <nav ref={navRef}>
-        <a href="/Personal-Portfolio/#/">Home</a>
-        <a href="/Personal-Portfolio/#/Projects">Projects</a>
-        <a href="/Personal-Portfolio/#/Experience">Experience</a>
-        <a href="/Personal-Portfolio/#/Contact">Contact</a>
-      </nav>
       <b1 class="Name">Omar Alabdalla</b1>
+      <div className="NavBar-Links">
+        <nav ref={navRef}>
+          <a href="/Personal-Portfolio/#/">Home</a>
+          <a href="/Personal-Portfolio/#/Projects">Projects</a>
+          <a href="/Personal-Portfolio/#/Experience">Experience</a>
+          <a href="/Personal-Portfolio/#/Contact">Contact</a>
+        </nav>
+      </div>
     </header>
   );
 }
