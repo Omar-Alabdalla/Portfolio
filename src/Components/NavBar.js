@@ -9,15 +9,15 @@ function NavBar() {
 
   return (
     <header>
-      <b1 class="Name">Omar Alabdalla</b1>
-      <div className="NavBar-Links">
-        <nav ref={navRef}>
+      <nav ref={navRef}>
+        <div className="NavBar-Links">
+          <b1>Omar Alabdalla</b1>
           <a href="/Personal-Portfolio/#/">Home</a>
           <a href="/Personal-Portfolio/#/Projects">Projects</a>
           <a href="/Personal-Portfolio/#/Experience">Experience</a>
           <a href="/Personal-Portfolio/#/Contact">Contact</a>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   );
 }
