@@ -14,13 +14,13 @@ function App() {
     <HashRouter basename="/">
       <div>
         <React.Fragment>
-          <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Experience" element={<Experience />} />
           </Routes>
+          <NavBar />
         </React.Fragment>
       </div>
     </HashRouter>
