@@ -31,6 +31,13 @@ function Projects() {
       eventKey: 3,
     },
     {
+      title: "Discord Bot",
+      description:
+        "Utilized all my previous knowledge of programming to create a robust Discord Bot with many features",
+      imgUrl: projImg3,
+      eventKey: 1,
+    },
+    {
       title: "DIY Project",
       description: "Created many",
       imgUrl: projImg3,
