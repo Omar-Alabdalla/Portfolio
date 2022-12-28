@@ -37,3 +37,9 @@ span .animatedChars {
 span .animatedChars:hover {
   color: $textColor2;
 }
+
+iframe {
+  position: relative;
+  left: 20%;
+  margin-top: 10%;
+}
