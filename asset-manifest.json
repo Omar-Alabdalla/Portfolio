@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.0bc4cd57.css",
-    "main.js": "/Personal-Portfolio/static/js/main.5d419c41.js",
+    "main.css": "/Personal-Portfolio/static/css/main.bd0802ac.css",
+    "main.js": "/Personal-Portfolio/static/js/main.32fdfc45.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/Open-Weather-API-Handler.png": "/Personal-Portfolio/static/media/Open-Weather-API-Handler.9870c6a658fbdf0abf55.png",
+    "static/media/React-icon.svg.png": "/Personal-Portfolio/static/media/React-icon.svg.afac58dc67ace7185ad7.png",
+    "static/media/PowerApps3.png": "/Personal-Portfolio/static/media/PowerApps3.be536330b89bd522c0cb.png",
+    "static/media/2277078523_dfa9cb9a76_c.jpg": "/Personal-Portfolio/static/media/2277078523_dfa9cb9a76_c.c2ac4cb9ea3edf40e778.jpg",
+    "static/media/NextCord-Logo.png": "/Personal-Portfolio/static/media/NextCord-Logo.ab6a73f432aff7c78344.png",
+    "static/media/Bee-Game-Preview.png": "/Personal-Portfolio/static/media/Bee-Game-Preview.38541c4f46c6e0223f78.png",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.0bc4cd57.css.map": "/Personal-Portfolio/static/css/main.0bc4cd57.css.map",
-    "main.5d419c41.js.map": "/Personal-Portfolio/static/js/main.5d419c41.js.map",
+    "main.bd0802ac.css.map": "/Personal-Portfolio/static/css/main.bd0802ac.css.map",
+    "main.32fdfc45.js.map": "/Personal-Portfolio/static/js/main.32fdfc45.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bc4cd57.css",
-    "static/js/main.5d419c41.js"
+    "static/css/main.bd0802ac.css",
+    "static/js/main.32fdfc45.js"
   ]
 }
