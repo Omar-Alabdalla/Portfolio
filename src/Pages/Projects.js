@@ -5,7 +5,10 @@ import "../Images/Open-Weather-API-Handler.png";
 
 import projImg1 from "../Images/Bee-Game-Preview.png";
 import projImg2 from "../Images/Open-Weather-API-Handler.png";
-import projImg3 from "../Images/Bee-Game-Preview.png";
+import projImg3 from "../Images/PowerApps3.png";
+import projImg4 from "../Images/NextCord-Logo.png";
+import projImg5 from "../Images/2277078523_dfa9cb9a76_c.jpg";
+import projImg6 from "../Images/React-icon.svg.png";
 
 import "animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -34,14 +37,29 @@ function Projects() {
       title: "Discord Bot",
       description:
         "Utilized all my previous knowledge of programming to create a robust Discord Bot with many features",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
       eventKey: 1,
     },
     {
       title: "DIY Project",
-      description: "Created many",
+      description:
+        "Created many programs to aid the process of uploading and managing company documents to their SharePoint database.",
       imgUrl: projImg3,
       eventKey: 2,
+    },
+    {
+      title: "GenCyber Cyber Security Bootcamp",
+      description:
+        "Learned various topics that are fundamental to the cybersecurity career path, as well as implemented them in practice to prove that I retained all the knowledge gained",
+      imgUrl: projImg5,
+      eventKey: 1,
+    },
+    {
+      title: "Personal Portfolio",
+      description:
+        "Created a website to portray all my previous experience as well as teach me advanced web development concepts.",
+      imgUrl: projImg6,
+      eventKey: 1,
     },
   ];
   return (
