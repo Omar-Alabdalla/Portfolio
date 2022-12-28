@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Col from "react-bootstrap/Col";
 
+import "./Card.scss";
+
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>

@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 
-import "../Images/Open-Weather-API-Handler.png";
+import "../Images/Projects/Open-Weather-API-Handler.png";
 
-import projImg1 from "../Images/Bee-Game-Preview.png";
-import projImg2 from "../Images/Open-Weather-API-Handler.png";
-import projImg3 from "../Images/PowerApps3.png";
-import projImg4 from "../Images/NextCord-Logo.png";
-import projImg5 from "../Images/2277078523_dfa9cb9a76_c.jpg";
-import projImg6 from "../Images/React-icon.svg.png";
+import projImg1 from "../Images/Projects/Bee-Game-Preview.png";
+import projImg2 from "../Images/Projects/Open-Weather-API-Handler.png";
+import projImg3 from "../Images/Projects/PowerApps3.png";
+import projImg4 from "../Images/Projects/NextCord-Logo.png";
+import projImg5 from "../Images/Projects/2277078523_dfa9cb9a76_c.jpg";
+import projImg6 from "../Images/Projects/React-icon.svg.png";
 
 import "animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -2,32 +2,75 @@ import React from "react";
 
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 
+import projImg1 from "../Images/Experience/Mazuma Logo.png";
+import projImg2 from "../Images/Experience/Code Ninjas.png";
+import projImg3 from "../Images/Experience/Walmart Logo.png";
+import projImg4 from "../Images/Experience/BVW Logo.png";
+import projImg5 from "../Images/Experience/Johnson_County_Cavaliers_logo.svg.png";
+import projImg6 from "../Images/Experience/UTD Logo.png";
+import projImg7 from "../Images/Experience/React-icon.svg.png";
+import projImg8 from "../Images/Experience/VS Code Projects.png";
+
 import "./Experience.scss";
 
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "./experienceCard";
 
 function Experience() {
   const projects = [
     {
-      Employer: "Walmart",
-      Position: "Digital Order Fulfillment",
-      Term_Served: "09/14/2020 - 01/01/2022",
-      Description:
-        "Maintained optimal financial controls by following loss prevention procedures and protecting cash assets. Served customers with knowledge, and friendly support at every stage of shopping and purchasing. Merchandised attractive shelf displays with current offerings to drive store sales",
+      title: "Digital Order Fulfillment",
+      description:
+        "Utilized all my previous knowledge of programming to create a robust Discord Bot with many features",
+      imgUrl: projImg3,
+      eventKey: 1,
     },
     {
-      Employer: "Code Ninjas",
-      Position: "Coding Instructor",
-      Term_Served: "01/01/2022 - 05/14/2022",
-      Description:
-        "Taught, guided, and mentored students on fundamental coding and software development concepts. Lead a group of students to ensure that they were all working at their best potential. Provided support and ensured students understood the course material.",
+      title: "Coding Instructor",
+      description:
+        "Taught, guided, and mentored students on fundamental coding and software development concepts. Lead a group of students to ensure that they were all working at their best potential. Provided support and ensured students understood the course materials",
+      imgUrl: projImg2,
+      eventKey: 1,
     },
     {
-      Employer: "Mazuma Credit Union",
-      Postion: "Software Developer Intern",
-      Term_Served: "05/14/2022 - Present",
-      Description:
-        "Developed, programs to upload and integrate company databases to SharePoint utilizing RESTful API. Managed SharePoint API to create programs to automate web page creation to embed company files. Created programs to search for key words within company document sets.",
+      title: "Software Developer Intern",
+      description:
+        "Developed programs to upload and integrate company databases to SharePoint utilizing RESTful API. Managed SharePoint API to create programs to automate web page creation to embed company files. Created programs to search for key words within company document sets",
+      imgUrl: projImg1,
+      eventKey: 1,
+    },
+
+    {
+      title: "Blue Valley West High School",
+      description: "This was the high school that I graduated from.",
+      imgUrl: projImg4,
+      eventKey: 2,
+    },
+    {
+      title: "Johnson County Community College",
+      description:
+        "This is the community college I went to after high school before transferring to uni.",
+      imgUrl: projImg5,
+      eventKey: 2,
+    },
+    {
+      title: "University of Texas at Dallas",
+      description:
+        "This is the university I intend on attending to complete my Bachelors of Science in Computer Science.",
+      imgUrl: projImg6,
+      eventKey: 2,
+    },
+    {
+      title: "Personal Portfolio Site",
+      description:
+        "I hope to finalize my personal portfolio website to make it presentable for recruiters.",
+      imgUrl: projImg7,
+      eventKey: 3,
+    },
+    {
+      title: "Java Project",
+      description: "I want to create a large scale project using Java.",
+      imgUrl: projImg8,
+      eventKey: 3,
     },
   ];
   return (
@@ -35,10 +78,10 @@ function Experience() {
       <Container>
         <Row>
           <Col size={12}>
-            <h2>Projects</h2>
+            <h2>Experience</h2>
             <p>
-              Below you will can see the various projects I have done organized
-              by whether I did them for a company, myself, or school.
+              Below you will see all my various education/work experiences as
+              well as some personal goals I have for myself.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
@@ -47,13 +90,13 @@ function Experience() {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Personal Projects</Nav.Link>
+                  <Nav.Link eventKey="first">Work Experience</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Professional Projects</Nav.Link>
+                  <Nav.Link eventKey="second">Educational Experience</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Education Projects</Nav.Link>
+                  <Nav.Link eventKey="third">Current Goals</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
