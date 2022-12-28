@@ -91,3 +91,27 @@ $textColor2: white;
     box-shadow: inset 0 0 0.5em 0 $secondaryColor, 0 0 0.5em 0 $secondaryColor;
   }
 }
+
+.Socials {
+  background-color: $backgroundColor;
+  color: $backgroundColor;
+  position: absolute;
+  right: -30%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35%;
+  vertical-align: middle;
+  display: table-cell;
+  max-height: 90%;
+}
+
+a.btn.btn-primary {
+  float: right;
+  color: $textColor;
+  background-color: $backgroundColor !important;
+  border-color: transparent !important;
+  font-size: 50px !important;
+}
+a.btn.btn-primary:hover {
+  color: $textColor2;
+}
