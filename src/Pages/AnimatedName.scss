@@ -1,0 +1,29 @@
+$mainColor: rgb(48, 48, 48);
+$backgroundColor: #262626;
+$mainColorLight: grey;
+$secondaryColor: rgb(19, 200, 255);
+$textColor: rgb(169, 126, 7);
+$textColor2: white;
+
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+}
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: $mainColor;
+  }
+}
+
+@for $i from 1 through 35 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+}
