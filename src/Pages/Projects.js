@@ -95,7 +95,7 @@ function Projects() {
                       if (project.eventKey === 1) {
                         return <ProjectCard key={index} {...project} />;
                       }
-                      return 1;
+                      return null;
                     })}
                   </Row>
                 </Tab.Pane>
@@ -105,7 +105,7 @@ function Projects() {
                       if (project.eventKey === 2) {
                         return <ProjectCard key={index} {...project} />;
                       }
-                      return 1;
+                      return null;
                     })}
                   </Row>
                 </Tab.Pane>
@@ -115,7 +115,7 @@ function Projects() {
                       if (project.eventKey === 3) {
                         return <ProjectCard key={index} {...project} />;
                       }
-                      return 1;
+                      return null;
                     })}
                   </Row>
                 </Tab.Pane>
