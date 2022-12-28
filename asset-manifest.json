@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.47a4a2d7.css",
-    "main.js": "/Personal-Portfolio/static/js/main.e2b22b1d.js",
+    "main.css": "/Personal-Portfolio/static/css/main.beee0451.css",
+    "main.js": "/Personal-Portfolio/static/js/main.49c05da3.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Walmart Logo.png": "/Personal-Portfolio/static/media/Walmart Logo.f63e6cb405545063acc7.png",
     "static/media/Open-Weather-API-Handler.png": "/Personal-Portfolio/static/media/Open-Weather-API-Handler.d6490383ac4dbab9f59d.png",
@@ -17,12 +17,12 @@
     "static/media/VS Code Projects.png": "/Personal-Portfolio/static/media/VS Code Projects.63fef5d25604325e0895.png",
     "static/media/Bee-Game-Preview.png": "/Personal-Portfolio/static/media/Bee-Game-Preview.66b42e38323c31dd4329.png",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.47a4a2d7.css.map": "/Personal-Portfolio/static/css/main.47a4a2d7.css.map",
-    "main.e2b22b1d.js.map": "/Personal-Portfolio/static/js/main.e2b22b1d.js.map",
+    "main.beee0451.css.map": "/Personal-Portfolio/static/css/main.beee0451.css.map",
+    "main.49c05da3.js.map": "/Personal-Portfolio/static/js/main.49c05da3.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a4a2d7.css",
-    "static/js/main.e2b22b1d.js"
+    "static/css/main.beee0451.css",
+    "static/js/main.49c05da3.js"
   ]
 }
