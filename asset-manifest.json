@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.a8c37acd.css",
+    "main.css": "/Personal-Portfolio/static/css/main.8c38cd5d.css",
     "main.js": "/Personal-Portfolio/static/js/main.49c05da3.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Walmart Logo.png": "/Personal-Portfolio/static/media/Walmart Logo.f63e6cb405545063acc7.png",
@@ -17,12 +17,12 @@
     "static/media/VS Code Projects.png": "/Personal-Portfolio/static/media/VS Code Projects.63fef5d25604325e0895.png",
     "static/media/Bee-Game-Preview.png": "/Personal-Portfolio/static/media/Bee-Game-Preview.66b42e38323c31dd4329.png",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.a8c37acd.css.map": "/Personal-Portfolio/static/css/main.a8c37acd.css.map",
+    "main.8c38cd5d.css.map": "/Personal-Portfolio/static/css/main.8c38cd5d.css.map",
     "main.49c05da3.js.map": "/Personal-Portfolio/static/js/main.49c05da3.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c37acd.css",
+    "static/css/main.8c38cd5d.css",
     "static/js/main.49c05da3.js"
   ]
 }
