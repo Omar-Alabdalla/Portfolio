@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6123d510.css",
-    "main.js": "/Portfolio/static/js/main.edc823fc.js",
+    "main.js": "/Portfolio/static/js/main.017a260f.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Walmart Logo.png": "/Portfolio/static/media/Walmart Logo.f63e6cb405545063acc7.png",
     "static/media/Open-Weather-API-Handler.png": "/Portfolio/static/media/Open-Weather-API-Handler.d6490383ac4dbab9f59d.png",
@@ -18,11 +18,11 @@
     "static/media/Bee-Game-Preview.png": "/Portfolio/static/media/Bee-Game-Preview.66b42e38323c31dd4329.png",
     "index.html": "/Portfolio/index.html",
     "main.6123d510.css.map": "/Portfolio/static/css/main.6123d510.css.map",
-    "main.edc823fc.js.map": "/Portfolio/static/js/main.edc823fc.js.map",
+    "main.017a260f.js.map": "/Portfolio/static/js/main.017a260f.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6123d510.css",
-    "static/js/main.edc823fc.js"
+    "static/js/main.017a260f.js"
   ]
 }
