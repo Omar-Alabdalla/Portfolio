@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.6123d510.css",
-    "main.js": "/Personal-Portfolio/static/js/main.9b416e76.js",
-    "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/Walmart Logo.png": "/Personal-Portfolio/static/media/Walmart Logo.f63e6cb405545063acc7.png",
-    "static/media/Open-Weather-API-Handler.png": "/Personal-Portfolio/static/media/Open-Weather-API-Handler.d6490383ac4dbab9f59d.png",
-    "static/media/React-icon.svg.png": "/Personal-Portfolio/static/media/React-icon.svg.1e7aa17a196109abeeff.png",
-    "static/media/2277078523_dfa9cb9a76_c.jpg": "/Personal-Portfolio/static/media/2277078523_dfa9cb9a76_c.9908126dbf1fec25d3ae.jpg",
-    "static/media/BVW Logo.png": "/Personal-Portfolio/static/media/BVW Logo.c7066967ed445660db68.png",
-    "static/media/Johnson_County_Cavaliers_logo.svg.png": "/Personal-Portfolio/static/media/Johnson_County_Cavaliers_logo.svg.10c8119e11c6a3a5660b.png",
-    "static/media/PowerApps3.png": "/Personal-Portfolio/static/media/PowerApps3.23df3a6eab49bc0eefdf.png",
-    "static/media/NextCord-Logo.png": "/Personal-Portfolio/static/media/NextCord-Logo.4f556508bba7bba1d0f9.png",
-    "static/media/UTD Logo.png": "/Personal-Portfolio/static/media/UTD Logo.fe4aac53f11f68489a77.png",
-    "static/media/Mazuma Logo.png": "/Personal-Portfolio/static/media/Mazuma Logo.8ed17b64f68beb88bb5e.png",
-    "static/media/Code Ninjas.png": "/Personal-Portfolio/static/media/Code Ninjas.6a9175e52daafceef85b.png",
-    "static/media/VS Code Projects.png": "/Personal-Portfolio/static/media/VS Code Projects.63fef5d25604325e0895.png",
-    "static/media/Bee-Game-Preview.png": "/Personal-Portfolio/static/media/Bee-Game-Preview.66b42e38323c31dd4329.png",
-    "index.html": "/Personal-Portfolio/index.html",
-    "main.6123d510.css.map": "/Personal-Portfolio/static/css/main.6123d510.css.map",
-    "main.9b416e76.js.map": "/Personal-Portfolio/static/js/main.9b416e76.js.map",
-    "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.6123d510.css",
+    "main.js": "/Portfolio/static/js/main.edc823fc.js",
+    "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/Walmart Logo.png": "/Portfolio/static/media/Walmart Logo.f63e6cb405545063acc7.png",
+    "static/media/Open-Weather-API-Handler.png": "/Portfolio/static/media/Open-Weather-API-Handler.d6490383ac4dbab9f59d.png",
+    "static/media/React-icon.svg.png": "/Portfolio/static/media/React-icon.svg.1e7aa17a196109abeeff.png",
+    "static/media/2277078523_dfa9cb9a76_c.jpg": "/Portfolio/static/media/2277078523_dfa9cb9a76_c.9908126dbf1fec25d3ae.jpg",
+    "static/media/BVW Logo.png": "/Portfolio/static/media/BVW Logo.c7066967ed445660db68.png",
+    "static/media/Johnson_County_Cavaliers_logo.svg.png": "/Portfolio/static/media/Johnson_County_Cavaliers_logo.svg.10c8119e11c6a3a5660b.png",
+    "static/media/PowerApps3.png": "/Portfolio/static/media/PowerApps3.23df3a6eab49bc0eefdf.png",
+    "static/media/NextCord-Logo.png": "/Portfolio/static/media/NextCord-Logo.4f556508bba7bba1d0f9.png",
+    "static/media/UTD Logo.png": "/Portfolio/static/media/UTD Logo.fe4aac53f11f68489a77.png",
+    "static/media/Mazuma Logo.png": "/Portfolio/static/media/Mazuma Logo.8ed17b64f68beb88bb5e.png",
+    "static/media/Code Ninjas.png": "/Portfolio/static/media/Code Ninjas.6a9175e52daafceef85b.png",
+    "static/media/VS Code Projects.png": "/Portfolio/static/media/VS Code Projects.63fef5d25604325e0895.png",
+    "static/media/Bee-Game-Preview.png": "/Portfolio/static/media/Bee-Game-Preview.66b42e38323c31dd4329.png",
+    "index.html": "/Portfolio/index.html",
+    "main.6123d510.css.map": "/Portfolio/static/css/main.6123d510.css.map",
+    "main.edc823fc.js.map": "/Portfolio/static/js/main.edc823fc.js.map",
+    "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6123d510.css",
-    "static/js/main.9b416e76.js"
+    "static/js/main.edc823fc.js"
   ]
 }
