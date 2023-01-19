@@ -22,6 +22,7 @@ function Experience() {
       description:
         "Utilized all my previous knowledge of programming to create a robust Discord Bot with many features",
       imgUrl: projImg3,
+      imgLink: "https://www.walmart.com/",
       eventKey: 1,
     },
     {
@@ -29,6 +30,7 @@ function Experience() {
       description:
         "Taught, guided, and mentored students on fundamental coding and software development concepts. Lead a group of students to ensure that they were all working at their best potential. Provided support and ensured students understood the course materials",
       imgUrl: projImg2,
+      imgLink: "https://www.codeninjas.com/",
       eventKey: 1,
     },
     {
@@ -36,6 +38,7 @@ function Experience() {
       description:
         "Developed programs to upload and integrate company databases to SharePoint utilizing RESTful API. Managed SharePoint API to create programs to automate web page creation to embed company files. Created programs to search for key words within company document sets",
       imgUrl: projImg1,
+      imgLink: "https://www.mazuma.org/",
       eventKey: 1,
     },
 
@@ -43,6 +46,7 @@ function Experience() {
       title: "Blue Valley West High School",
       description: "This was the high school that I graduated from.",
       imgUrl: projImg4,
+      imgLink: "https://www.bluevalleyk12.org/BVW",
       eventKey: 2,
     },
     {
@@ -50,6 +54,7 @@ function Experience() {
       description:
         "This is the community college I went to after high school before transferring to uni.",
       imgUrl: projImg5,
+      imgLink: "https://www.jccc.edu/",
       eventKey: 2,
     },
     {
@@ -57,12 +62,13 @@ function Experience() {
       description:
         "This is the university I intend on attending to complete my Bachelors of Science in Computer Science.",
       imgUrl: projImg6,
+      imgLink: "https://www.utdallas.edu/",
       eventKey: 2,
     },
     {
       title: "Personal Portfolio Site",
       description:
-        "I hope to finalize my personal portfolio website to make it presentable for recruiters.",
+        "I am currently working on learning react native to add mobile functionality to this site.",
       imgUrl: projImg7,
       eventKey: 3,
     },

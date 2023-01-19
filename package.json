@@ -1,5 +1,5 @@
 {
-  "homepage": "https://omar-alabdalla.github.io/Personal-Portfolio",
+  "homepage": "https://omar-alabdalla.github.io/Portfolio",
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +23,7 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
+    "requests": "^0.3.0",
     "sass": "^1.56.1",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"

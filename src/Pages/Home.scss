@@ -7,6 +7,7 @@ $textColor2: white;
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&family=Trocchi&family=Vesper+Libre&display=swap");
 
 div.text-zone-home-page {
+  cursor: default;
   .Name {
     position: relative;
     font-size: 48px;
@@ -28,6 +29,7 @@ text-zone {
   color: $textColor;
 }
 text-zone:hover {
+  cursor: pointer;
   color: $textColor2;
 }
 span .animatedChars {

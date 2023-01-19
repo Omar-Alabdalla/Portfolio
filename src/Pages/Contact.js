@@ -86,13 +86,25 @@ function Contact() {
       </div>
       <div className="Socials">
         <ButtonGroup vertical aria-label="Basic Example">
-          <Button href="https://www.linkedin.com/in/omar-alabdalla/">
+          <Button
+            href="https://www.linkedin.com/in/omar-alabdalla/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineLinkedin />
           </Button>
-          <Button href="https://github.com/Omar-Alabdalla">
+          <Button
+            href="https://github.com/Omar-Alabdalla"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineGithub />
           </Button>
-          <Button href="mailto: omar.alabdalla04@gmail.com">
+          <Button
+            href="mailto: omar.alabdalla04@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineMail />
           </Button>
         </ButtonGroup>

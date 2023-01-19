@@ -15,10 +15,10 @@ function NavBar() {
   return (
     <header>
       <nav ref={navRef}>
-        <a href="/Personal-Portfolio/#/">Home</a>
-        <a href="/Personal-Portfolio/#/Projects">Projects</a>
-        <a href="/Personal-Portfolio/#/Experience">Experience</a>
-        <a href="/Personal-Portfolio/#/Contact">Contact</a>
+        <a href="/Portfolio/#/">Home</a>
+        <a href="/Portfolio/#/Projects">Projects</a>
+        <a href="/Portfolio/#/Experience">Experience</a>
+        <a href="/Portfolio/#/Contact">Contact</a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
