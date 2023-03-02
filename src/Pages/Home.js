@@ -78,17 +78,6 @@ function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <MDBContainer className="Game">
-            <iframe
-              className="BeeGame"
-              src="https://www.greenfoot.org/scenarios/30444?embed=true"
-              title="Game"
-              width="700px"
-              height="725px"
-            />
-          </MDBContainer>
-        </div>
       </div>
     </>
   );
