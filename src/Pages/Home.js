@@ -2,10 +2,7 @@ import React from "react";
 import { useState } from "react";
 import AnimatedLetters from "./AnimatedName";
 
-import { MDBContainer } from "mdbreact";
-
 import "./Home.scss";
-import { Container } from "react-bootstrap";
 
 /*
 

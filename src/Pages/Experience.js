@@ -4,7 +4,6 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 
 import projImg1 from "../Images/Experience/Mazuma Logo.png";
 import projImg2 from "../Images/Experience/Code Ninjas.png";
-import projImg3 from "../Images/Experience/Walmart Logo.png";
 import projImg4 from "../Images/Experience/BVW Logo.png";
 import projImg5 from "../Images/Experience/Johnson_County_Cavaliers_logo.svg.png";
 import projImg6 from "../Images/Experience/UTD Logo.png";
@@ -17,14 +16,6 @@ import { ProjectCard } from "./experienceCard";
 
 function Experience() {
   const projects = [
-    {
-      title: "Digital Order Fulfillment",
-      description:
-        "Utilized all my previous knowledge of programming to create a robust Discord Bot with many features",
-      imgUrl: projImg3,
-      imgLink: "https://www.walmart.com/",
-      eventKey: 1,
-    },
     {
       title: "Coding Instructor",
       description:
