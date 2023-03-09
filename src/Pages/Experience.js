@@ -2,12 +2,12 @@ import React from "react";
 
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 
-import projImg1 from "../Images/Experience/Mazuma Logo.png";
-import projImg2 from "../Images/Experience/Code Ninjas.png";
-import projImg3 from "../Images/To-Do/OpenWeather.png";
-import projImg4 from "../Images/Experience/BVW Logo.png";
-import projImg5 from "../Images/Experience/Johnson_County_Cavaliers_logo.svg.png";
-import projImg6 from "../Images/Experience/UTD Logo.png";
+import projImg1 from "../Images/Experience/Code Ninjas.png";
+import projImg2 from "../Images/Experience/Mazuma Logo.png";
+import projImg3 from "../Images/Experience/BVW Logo.png";
+import projImg4 from "../Images/Experience/Johnson_County_Cavaliers_logo.svg.png";
+import projImg5 from "../Images/Experience/UTD Logo.png";
+import projImg6 from "../Images/Experience/OpenWeather.png";
 import projImg7 from "../Images/Experience/React-icon.svg.png";
 import projImg8 from "../Images/Experience/VS Code Projects.png";
 
@@ -21,7 +21,7 @@ function Experience() {
       title: "Coding Instructor",
       description:
         "Taught, guided, and mentored students on fundamental coding and software development concepts. Lead a group of students to ensure that they were all working at their best potential. Provided support and ensured students understood the course materials",
-      imgUrl: projImg2,
+      imgUrl: projImg1,
       imgLink: "https://www.codeninjas.com/",
       eventKey: 1,
     },
@@ -29,7 +29,7 @@ function Experience() {
       title: "Software Developer Intern",
       description:
         "Developed programs to upload and integrate company databases to SharePoint utilizing RESTful API. Managed SharePoint API to create programs to automate web page creation to embed company files. Created programs to search for key words within company document sets",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
       imgLink: "https://www.mazuma.org/",
       eventKey: 1,
     },
@@ -37,7 +37,7 @@ function Experience() {
     {
       title: "Blue Valley West High School",
       description: "This is the high school that I graduated from.",
-      imgUrl: projImg4,
+      imgUrl: projImg3,
       imgLink: "https://www.bluevalleyk12.org/BVW",
       eventKey: 2,
     },
@@ -45,7 +45,7 @@ function Experience() {
       title: "Johnson County Community College",
       description:
         "I went to Johnson County Community College during high school for dual credit courses and attended it for my freshman year of college.",
-      imgUrl: projImg5,
+      imgUrl: projImg4,
       imgLink: "https://www.jccc.edu/",
       eventKey: 2,
     },
@@ -53,7 +53,7 @@ function Experience() {
       title: "University of Texas at Dallas",
       description:
         "I plan on transferring to UTD to finish my BS in Computer Science.",
-      imgUrl: projImg6,
+      imgUrl: projImg5,
       imgLink: "https://www.utdallas.edu/",
       eventKey: 2,
     },
@@ -61,7 +61,7 @@ function Experience() {
       title: "Open Weather API",
       description:
         "I am currently working on using restful APIs to return the weather of the user of the website using geolocation api to enhance the home page.",
-      imgURL: projImg3,
+      imgUrl: projImg6,
       eventKey: 3,
     },
     {
