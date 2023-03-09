@@ -4,6 +4,7 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 
 import projImg1 from "../Images/Experience/Mazuma Logo.png";
 import projImg2 from "../Images/Experience/Code Ninjas.png";
+import projImg3 from "../Images/To-Do/OpenWeather.png";
 import projImg4 from "../Images/Experience/BVW Logo.png";
 import projImg5 from "../Images/Experience/Johnson_County_Cavaliers_logo.svg.png";
 import projImg6 from "../Images/Experience/UTD Logo.png";
@@ -35,7 +36,7 @@ function Experience() {
 
     {
       title: "Blue Valley West High School",
-      description: "This was the high school that I graduated from.",
+      description: "This is the high school that I graduated from.",
       imgUrl: projImg4,
       imgLink: "https://www.bluevalleyk12.org/BVW",
       eventKey: 2,
@@ -43,7 +44,7 @@ function Experience() {
     {
       title: "Johnson County Community College",
       description:
-        "This is the community college I went to after high school before transferring to uni.",
+        "I went to Johnson County Community College during high school for dual credit courses and attended it for my freshman year of college.",
       imgUrl: projImg5,
       imgLink: "https://www.jccc.edu/",
       eventKey: 2,
@@ -51,15 +52,22 @@ function Experience() {
     {
       title: "University of Texas at Dallas",
       description:
-        "This is the university I intend on attending to complete my Bachelors of Science in Computer Science.",
+        "I plan on transferring to UTD to finish my BS in Computer Science.",
       imgUrl: projImg6,
       imgLink: "https://www.utdallas.edu/",
       eventKey: 2,
     },
     {
+      title: "Open Weather API",
+      description:
+        "I am currently working on using restful APIs to return the weather of the user of the website using geolocation api to enhance the home page.",
+      imgURL: projImg3,
+      eventKey: 3,
+    },
+    {
       title: "Personal Portfolio Site",
       description:
-        "I am currently working on learning react native to add mobile functionality to this site.",
+        "I am planning on learning react native to enhance the mobile experience for this site.",
       imgUrl: projImg7,
       eventKey: 3,
     },
