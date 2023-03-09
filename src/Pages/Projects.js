@@ -24,7 +24,7 @@ function Projects() {
       description:
         "Created a platformer game from scratch utilizing Piskel as well as the Greenfoot framework.",
       imgUrl: projImg1,
-      imgLink: "https://www.greenfoot.org/scenarios/30444",
+      imgLink: "https://github.com/Omar-Alabdalla/Bee-Game",
       eventKey: 3,
     },
     {
@@ -32,8 +32,7 @@ function Projects() {
       description:
         "Created a API handler that could tell the Open Weather API to return various information in relation to certain zip codes around the USA.",
       imgUrl: projImg2,
-      imgLink:
-        "https://github.com/Omar-Alabdalla/Programming-Fundamentals/tree/master/Final%20Project",
+      imgLink: "https://github.com/Omar-Alabdalla/Python-Weather-Api-Handler",
       eventKey: 3,
     },
     {
@@ -49,8 +48,7 @@ function Projects() {
       description:
         "Utilized all my previous knowledge of programming to create a robust Discord Bot with many features",
       imgUrl: projImg4,
-      imgLink:
-        "https://discord.com/api/oauth2/authorize?client_id=930623441340596235&permissions=277062340352&scope=bot",
+      imgLink: "https://github.com/Omar-Alabdalla/DiscordBot",
       eventKey: 1,
     },
     {
@@ -66,7 +64,7 @@ function Projects() {
       description:
         "Created a website to portray all my previous experience as well as teach me advanced web development concepts.",
       imgUrl: projImg6,
-      imgLink: "https://omar-alabdalla.github.io/Personal-Portfolio/#/",
+      imgLink: "https://github.com/Omar-Alabdalla/Portfolio",
       eventKey: 1,
     },
   ];
@@ -78,7 +76,9 @@ function Projects() {
             <h2>Projects</h2>
             <p>
               Below you will can see the various projects I have done organized
-              by whether I did them for a company, myself, or school.
+              by whether I did them for a company, myself, or school. You can
+              click on the images to be linked to their relevant github
+              repositories.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav

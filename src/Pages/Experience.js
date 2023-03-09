@@ -85,8 +85,7 @@ function Experience() {
           <Col size={12}>
             <h2>Experience</h2>
             <p>
-              Below you will see all my various education/work experiences as
-              well as some personal goals I have for myself.
+              Below you will see all of the institutions I worked/learned from.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
